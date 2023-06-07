@@ -14,7 +14,7 @@ struct ContentView: View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
             VStack {
-                Text("QUARTER FLIP")
+                Text("FLIP A COIN")
                     .font(.largeTitle)
                     .foregroundColor(.white)
                 Spacer()
