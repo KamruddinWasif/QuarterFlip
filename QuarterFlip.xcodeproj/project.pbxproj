@@ -11,6 +11,9 @@
 		FA8072422A30A83500DEA864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8072412A30A83500DEA864 /* ContentView.swift */; };
 		FA8072442A30A83700DEA864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8072432A30A83700DEA864 /* Assets.xcassets */; };
 		FA8072472A30A83700DEA864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8072462A30A83700DEA864 /* Preview Assets.xcassets */; };
+		FA80724E2A30A87400DEA864 /* CoinTossHapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80724D2A30A87400DEA864 /* CoinTossHapticFeedback.swift */; };
+		FA8072502A30AC6200DEA864 /* tails.png in Resources */ = {isa = PBXBuildFile; fileRef = FA80724F2A30AC6100DEA864 /* tails.png */; };
+		FA8072522A30AC6D00DEA864 /* heads.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8072512A30AC6D00DEA864 /* heads.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		FA8072412A30A83500DEA864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA8072432A30A83700DEA864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8072462A30A83700DEA864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA80724D2A30A87400DEA864 /* CoinTossHapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTossHapticFeedback.swift; sourceTree = "<group>"; };
+		FA80724F2A30AC6100DEA864 /* tails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tails.png; sourceTree = "<group>"; };
+		FA8072512A30AC6D00DEA864 /* heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heads.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				FA80723F2A30A83500DEA864 /* QuarterFlipApp.swift */,
 				FA8072412A30A83500DEA864 /* ContentView.swift */,
+				FA80724D2A30A87400DEA864 /* CoinTossHapticFeedback.swift */,
+				FA80724F2A30AC6100DEA864 /* tails.png */,
+				FA8072512A30AC6D00DEA864 /* heads.png */,
 				FA8072432A30A83700DEA864 /* Assets.xcassets */,
 				FA8072452A30A83700DEA864 /* Preview Content */,
 			);
@@ -126,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8072472A30A83700DEA864 /* Preview Assets.xcassets in Resources */,
+				FA8072522A30AC6D00DEA864 /* heads.png in Resources */,
 				FA8072442A30A83700DEA864 /* Assets.xcassets in Resources */,
+				FA8072502A30AC6200DEA864 /* tails.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8072422A30A83500DEA864 /* ContentView.swift in Sources */,
+				FA80724E2A30A87400DEA864 /* CoinTossHapticFeedback.swift in Sources */,
 				FA8072402A30A83500DEA864 /* QuarterFlipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
